@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Forgot Password</title>
+
+<style>
+.box{
+border: 1px solid;
+height: 300px;
+width: 300px;
+
+}
+
+.submit:hover{
+
+border-radius: 5px;
+background-color: rgb(255, 6, 213);
+color: white;
+
+}
+
+.cancel:hover{
+
+border-radius: 5px;
+background-color: rgb(255, 6, 213);
+color: white;
+
+}
+input {
+
+outline: 0px;
+}
+label{
+color: rgb(255, 6, 213);
+
+}
+
+</style>
+</head>
+<body>
+
+<center>
+<form action="myntraforgot" method="post" >
+<div class="box">
+<h3><b style="color: rgb(255, 6, 213);">M</b>yntra</h3>
+<img alt="" src="myntra.png" height="60px" width="40px"><br>
+<label>Ph.no:</label>
+<input type="number" placeholder="Enter the Mobile Number" name="number"><br><br>
+<label>Password</label>
+<input type="password" placeholder="Create a new password" name="pass1"><br><br>
+<label>Repeat Password</label>
+<input type="password" placeholder="Repeat the password" name="pass2"><br><br>
+<input type="submit" value="Update" class="submit">&nbsp;&nbsp;
+<input type="reset" value="Cancel" class="cancel">
+
+
+</div>
+
+
+</form>
+
+
+</center>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MYNTRA</title>
+<style>
+.box{
+border: 1px solid;
+width: 300px;
+height: 330px;
+}
+input{
+
+outline: 0px;
+
+}
+
+a{
+text-decoration: none;
+color:  rgb(255, 6, 213);
+}
+
+
+.forgot{
+float: right;
+}
+.submit:hover{
+background-color: rgb(255, 6, 213);
+border-radius: 5px;
+color: white;
+
+}
+.cancel:hover{
+background-color: rgb(255, 6, 213);
+border-radius: 5px;
+color: white;
+
+}
+label{
+color: rgb(255, 6, 213);
+
+}
+</style>
+</head>
+<body>
+<center>
+<div class="box">
+<form action="myntralogin" method="post">
+<h3><b style="color: rgb(255, 6, 213);">M</b>yntra</h3>
+<img alt="" src="myntra.png" height="60px" width="40px"><br>
+<label>Phno:</label>
+<input type="text" placeholder="Enter the mobile Number" name="number"><br><br>
+<label>Password</label>
+<input type="password" placeholder="Enter the password" name="pass"><br><br>
+<input type="submit" value="Login" class="submit">&nbsp;&nbsp;
+<input type="reset" value="Cancel" class="cancel"><br><br>
+<a href="http://localhost:8080/Myntraweb/myntraforgot.html" class="forgot">Forgot Password?</a><br><br><br>
+<a href="http://localhost:8080/Myntraweb/newaccountmyntra.html">Create new account?</a>
+</div>
+</form>
+
+</center>
+</body>
+</html>

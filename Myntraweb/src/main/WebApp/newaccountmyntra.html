@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Account Creation</title>
+
+<style>
+.box{
+border: 1px solid;
+height: 400px;
+width: 350px;
+
+}
+.submit:hover{
+
+border-radius: 5px;
+background-color: rgb(255, 6, 213);
+color: white;
+
+}
+
+.cancel:hover{
+
+border-radius: 5px;
+background-color: rgb(255, 6, 213);
+color: white;
+}
+input {
+
+outline: 0px;
+}
+label{
+color: rgb(255, 6, 213);
+
+}
+
+</style>
+</head>
+<body>
+
+<center>
+<form action="newaccountmyntra" method="post">
+<div class="box">
+<h3><b style="color: rgb(255, 6, 213);">M</b>yntra</h3>
+<img alt="" src="myntra.png" height="60px" width="40px"><br>
+<label>Ph.no:</label>
+<input type="number" placeholder="Enter the Mobile Number" name="number"><br><br>
+<label>E-mail</label>
+<input type="text" placeholder="Enter the e-mail address" name="mail"><br><br>
+<label>Gender</label>
+<input type="radio" name="gender" value="male">Male &nbsp;&nbsp;
+<input type="radio" name="gender" value="female">Fe-male<br><br>
+<label>Location</label>
+<input type="text" placeholder="Enter the Location" name="loc"><br><br>
+<label>Password</label>
+<input type="password" placeholder="Create a new password" name="pass"><br><br>
+<input type="submit" value="Register" class="submit">&nbsp;&nbsp;
+<input type="reset" value="Cancel" class="cancel">
+
+
+</div>
+
+
+</form>
+
+</center>
+
+</body>
+</html>
